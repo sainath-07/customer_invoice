@@ -83,7 +83,7 @@ class Invoice extends Component {
     };
     console.log(obj);
 
-    axios.post("http://localhost:5000/formdata", obj).then(
+    axios.post("https://customer-invoice.onrender.com/formdata", obj).then(
       (x) => console.log(x.data),
       (y) => console.log(y)
     );
