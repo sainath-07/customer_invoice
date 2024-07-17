@@ -3,6 +3,7 @@ const cors=require('cors')
 const app=express()
 const mongodb=require('./model.js')
 
+mongodb()
 
 // middleware
 app.use(express.json())
